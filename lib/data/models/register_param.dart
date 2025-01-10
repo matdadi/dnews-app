@@ -16,11 +16,14 @@ class RegisterParam {
   Map<String, dynamic> toQueryParams() {
     final Map<String, dynamic> queryParams = {};
 
-    queryParams['first_name'] = firstName;
-    if (lastName != null) queryParams['last_name'] = lastName!;
-    queryParams['username'] = username;
-    queryParams['email'] = email;
-    queryParams['password'] = password;
+    queryParams['first_name-500'] = firstName;
+    if (lastName != null) queryParams['last_name-500'] = lastName!;
+    queryParams['user_login-500'] = username;
+    queryParams['user_email-500'] = email;
+    queryParams['user_password-500'] = password;
+    queryParams['confirm_user_password-500'] = password;
+    queryParams['form_id'] = 500;
+    queryParams['_wp_http_referer'] = '/register/';
 
     return queryParams;
   }
