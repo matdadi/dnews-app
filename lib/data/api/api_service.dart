@@ -8,10 +8,10 @@ import 'package:http/http.dart' as http;
 class ApiService {
   // static const String baseUrl = 'http://103.245.39.17/api/v1/';
   static const String baseUrl =
-      'https://springgreen-chamois-788858.hostingersite.com/public/api/v1/';
+      'https://orange-chamois-936801.hostingersite.com/public/api/v1/';
 
   static const String authUrl =
-      'https://darkslategrey-wolverine-134080.hostingersite.com/wp-json/jwt-auth/v1/';
+      'https://dnewsindonesia.com/wp-json/jwt-auth/v1/token';
   static const int timeOut = 10000;
 
   final client = http.Client();
@@ -191,7 +191,7 @@ class ApiService {
 
   Future<dynamic> register(RegisterParam param) async {
     const String endpoint =
-        'https://darkslategrey-wolverine-134080.hostingersite.com/wp-json/auth/v1/register';
+        'https://dnewsindonesia.com/register';
     final url = Uri.parse(endpoint);
     final body = param.toQueryParams()
       ..removeWhere((key, value) => value == null);
