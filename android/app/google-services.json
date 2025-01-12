@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1044685797284",
+    "project_id": "dnews-aa04e",
+    "storage_bucket": "dnews-aa04e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044685797284:android:fec25cc93d93b093453331",
+        "android_client_info": {
+          "package_name": "com.application.dnews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfqem0QBRJigPK6wxCnigN15lf2FbPrCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
